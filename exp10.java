@@ -1,4 +1,4 @@
-EXPERIMENT 10: -
+EXPERIMENT 10: - Simple application using servlet
 Program: -
   
   
