@@ -1,3 +1,5 @@
+to demponstrate the use of inet address class and its factory methods
+
 import java.io.*;
 import java.net.*;
 public class Inet{
