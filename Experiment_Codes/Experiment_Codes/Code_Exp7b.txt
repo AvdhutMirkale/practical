@@ -1,0 +1,35 @@
+/* Exp 7b: Program to Add Element in Array using Splice Method */
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Adding object in array</title>
+	<style>
+		body {
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+	<h1 style="color: green">Geeksforgeeks</h1>
+	<p>Click the button to add new elements to the array.</p>
+
+	<button onclick="spliceFunction()">Add elements</button>
+
+	<p id="geeks"></p>
+
+	<script>
+		var list = ["HTML", "CSS", "JavaScript"];
+		document.getElementById("geeks").innerHTML = list;
+
+		function spliceFunction() {
+			list.splice(2,0,"Angular", "SQL", );
+			document.getElementById("geeks").innerHTML = list;
+		}
+	</script>
+
+</body>
+
+</html>			
